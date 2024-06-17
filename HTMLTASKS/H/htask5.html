@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+            color: blue;
+        }
+        #BOX1{
+            
+            /* margin-left: 2rem; */
+            /* margin-bottom: 7px; */
+            text-align: center;
+            width: 98%;
+            
+        }
+        #BOX2{
+            
+            /* margin-left: 6.22rem; */
+            /* margin-bottom: 7px; */
+            text-align: center;
+            width: 98%;
+        }
+        #BOX3{
+            /* margin-left: 6.2rem; */
+            text-align: center;
+            width: 98%;
+        }
+        #BOX4{
+            
+            /* margin-left: 6.68rem; */
+            /* margin-bottom: 7px; */
+            text-align: center;
+            width: 98%;
+        }
+        #BOX5{
+            
+            /* margin-left: 6.1rem; */
+            /* margin-bottom: 7px; */
+            text-align: center;
+            width: 98%;
+        }
+        #BOX6{
+            margin-left: 6rem;
+            text-align: center;
+            /* width: 98%; */
+        }
+        #BOX7{
+            margin-left: 6rem;
+            text-align: center;
+            /* width: 98%; */
+        }
+        #BOX8{
+            /* margin-left: 6rem; */
+            text-align: center;
+            width: 98%;
+        }
+        #BOX9{
+            /* margin-left: 6rem; */
+            text-align: center;
+            width: 98%;
+        }
+        #BOX10{
+            /* margin-left: 6rem; */
+            text-align: center;
+            width: 98%;
+        }
+        #BOX11{
+            /* margin-left: 6rem; */
+            text-align: center;
+            width: 98%;
+        }
+        #BOX12{
+            /* margin-left: 6rem; */
+            text-align: center;
+            width: 98%;
+        }
+        #BOX16{
+            margin-left: auto;
+            text-align: center;
+            width: 98%;
+        }
+        table,
+        tr,td{
+            border: 1px solid black;
+            border-collapse: collapse ;
+        }
+        table{
+            margin-left: auto;
+            margin-right: auto;
+
+            background-color: greenyellow;
+        }
+    </style>
+</head>
+<body style="background-color: coral;">
+    <h1>Registration form</h1>
+    <form>
+        <table>
+            <tr>
+            <td>
+            <label for="BOX1"></label>Full Name :
+            </td>
+            <td>
+            <input type="text" placeholder="enter name" id="BOX1">
+            </td>
+        </tr>
+        <br/>
+        <tr>
+            <td>
+            <label for="BOX2"></label>Username :
+            </td>
+            <td>
+            <input type="text" placeholder="enter Username" id="BOX2">
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <label for="BOX3"></label>Email :
+            </td>
+            <td>
+            <input type="text" placeholder="enter email" id="BOX3">
+            </td>
+        </tr>
+        <tr>
+        <td>
+        <label for="BOX4"></label>Password :
+        </td>
+        <td>
+        <input type="password" placeholder="enter Password" id="BOX3">
+        </td>
+        </tr>
+        <tr>
+        <td>
+        <label for="BOX5"></label>Re Password :
+        </td>
+        <td>
+        <input type="password" placeholder="enter Password" id="BOX5">
+        </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="BOX6"></label>Gender:   
+            </td>
+            <td>
+                <label for="BOX6">
+                <input type="radio" id="BOX6" name="GENDER" value="Male">Male
+                </label>
+                <br/>
+                <label for="BOX7">
+                <input type="radio" id="BOX7" name="GENDER" value="Female">Female
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="BOX8">Age</label>
+            </td>
+            <td>
+                <input type="text"placeholder="enter age" id="BOX8">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="BOX9">Phone Number</label>
+            </td>
+            <td>
+                <input type="text"placeholder="enter number" id="BOX8">
+            </td>
+        </tr>
+        <tr>
+            <td >
+                <label>Address</label>
+            </td>
+            <td >
+                <input type="text" style="width: 98%;">
+            </td>
+        </tr>
+        
+        <tr>
+            <td>
+                <label for="BOX10">State</label>
+            </td>
+            <td>
+                <input type="text"placeholder="enter state" id="BOX10">
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <label for="BOX11">Country
+            </td>
+                <td>
+                    <select name="Country" id="BOX11" aria-placeholder="choose your country"> Country
+                        <option value="kolkata">kolkata</option>
+                        <option value="mumbai">mumbai</option>
+                        <option value="delhi">delhi</option>
+                    </select>
+                </td>
+            </label>
+        </tr>
+        <tr>
+            <td>
+                <label for="BOX12" name="language" >Languages Known </label>
+            </td>
+            <td>
+                <label for="BOX12">
+                <input type="checkbox" id="BOX12" value="English" name="language">English
+                </label>
+                <label for="BOX13">
+                <input type="checkbox" id="BOX13" value="Kannada" name="language">Kannada
+                </label>
+                <label for="BOX14">
+                <input type="checkbox" id="BOX14" value="Hindi" name="language">Hindi
+                </label>
+                <label for="BOX14">
+                <input type="checkbox" id="BOX15" value="Telugu" name="language">Telugu
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox" id="BOX19">
+                <label for="#BOX19">Hereby I declare all the given details are true</label>
+            
+            </tr>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: right;">
+            Log in to <a
+            href="www.ethnus.com">Ethnus</a> webiste
+            </td>
+            </tr>
+            
+        </table>
+    </form>
+</body>
+</html>
